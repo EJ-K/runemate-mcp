@@ -8,7 +8,7 @@ apply<com.runemate.mcp.gradle.DocsPlugin>()
 apply<com.runemate.mcp.gradle.ApiPlugin>()
 
 group = "com.runemate"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenLocal()
