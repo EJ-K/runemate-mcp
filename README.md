@@ -106,6 +106,62 @@ Provide either `id` for a direct lookup or `filter` to search.
 - **Arrays** — matches if any element equals the value (case-insensitive)
 - **Numbers/other** — exact match via string comparison
 
+### `api-lookup`
+
+Search the RuneMate game API for classes, methods, and fields by keyword. Returns matching class definitions with their method signatures and Javadoc descriptions.
+
+**Parameters:**
+
+| Parameter | Type    | Required | Description                                      |
+|-----------|---------|----------|--------------------------------------------------|
+| `query`   | string  | Yes      | Class name, method name, or keyword to search    |
+| `type`    | string  | No       | Filter by `class`, `interface`, or `enum`        |
+| `limit`   | integer | No       | Maximum results to return (default: 10)          |
+
+**Examples:**
+
+```jsonc
+// Find the Npcs utility class
+{ "query": "Npcs" }
+
+// Search for query builder classes
+{ "query": "newQuery", "limit": 5 }
+
+// Find prayer-related enums
+{ "query": "prayer", "type": "enum" }
+
+// Look up coordinate/location classes
+{ "query": "Coordinate" }
+```
+
+Results include class name, package, kind (class/interface/enum), Javadoc description, superclass, interfaces, and all public/protected members with their signatures. ID constant classes (e.g., `ItemID`, `NpcID`) include the class entry but not individual constants — use `cache-lookup` for those.
+
+### `docs-search`
+
+Search the RuneMate developer documentation by keyword. Returns the most relevant documentation sections ranked by term frequency.
+
+**Parameters:**
+
+| Parameter | Type    | Required | Description                                      |
+|-----------|---------|----------|--------------------------------------------------|
+| `query`   | string  | Yes      | Keyword(s) to search for                         |
+| `limit`   | integer | No       | Maximum results to return (default: 5)           |
+
+**Examples:**
+
+```jsonc
+// Search for querying documentation
+{ "query": "query builder" }
+
+// Find pathfinding-related docs
+{ "query": "pathfinding", "limit": 3 }
+
+// Look up settings/configuration
+{ "query": "settings gradle plugin" }
+```
+
+Results include `path`, `title`, `section`, and `content` fields for each matching documentation section. Sections are split by `##` headings and scored by keyword occurrences (heading matches weighted 3x over content).
+
 ## Building
 
 ```bash

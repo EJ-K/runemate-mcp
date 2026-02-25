@@ -8,6 +8,9 @@ build/
 *.iml
 .vscode/
 
+# Compiled classes
+*.class
+
 # OS
 .DS_Store
 Thumbs.db

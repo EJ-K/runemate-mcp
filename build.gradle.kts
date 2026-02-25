@@ -4,6 +4,9 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
+apply<com.runemate.mcp.gradle.DocsPlugin>()
+apply<com.runemate.mcp.gradle.ApiPlugin>()
+
 group = "com.runemate"
 version = "1.0.0"
 
