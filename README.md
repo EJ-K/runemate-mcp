@@ -106,6 +106,31 @@ Provide either `id` for a direct lookup or `filter` to search.
 - **Arrays** — matches if any element equals the value (case-insensitive)
 - **Numbers/other** — exact match via string comparison
 
+### `cache-schema`
+
+List the available field names and types for a cache definition type, so you know which fields can be used with `cache-lookup` filters. Call with no arguments to list all supported types.
+
+**Parameters:**
+
+| Parameter | Type   | Required | Description                                          |
+|-----------|--------|----------|------------------------------------------------------|
+| `type`    | string | No       | The definition type to inspect. Omit to list all types. |
+
+**Examples:**
+
+```jsonc
+// List all supported cache types
+{}
+
+// Get fields for item definitions
+{ "type": "item" }
+
+// Get fields for NPC definitions
+{ "type": "npc" }
+```
+
+Returns each field's name and type (e.g. `String`, `int`, `int[]`, `Map<Integer, Object>`), making it easy to construct accurate `cache-lookup` filters.
+
 ### `api-lookup`
 
 Search the RuneMate game API for classes, methods, and fields by keyword. Returns matching class definitions with their method signatures and Javadoc descriptions.
