@@ -8,7 +8,7 @@ apply<com.runemate.mcp.gradle.DocsPlugin>()
 apply<com.runemate.mcp.gradle.ApiPlugin>()
 
 group = "com.runemate"
-version = "1.1.0"
+version = "1.1.1"
 
 repositories {
     mavenLocal()
@@ -23,8 +23,19 @@ dependencies {
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.2")
 
-    implementation("org.apache.logging.log4j:log4j-api:2.24.3")
-    implementation("org.apache.logging.log4j:log4j-core:2.24.3")
+    val platform = platform("com.runemate:runemate-client-bom:4.17.7.0")
+    implementation(platform)
+    implementation("com.google.code.gson:gson")
+    implementation("org.jetbrains:annotations")
+    implementation("com.google.guava:guava")
+    implementation("org.apache.commons:commons-lang3")
+    implementation("org.apache.commons:commons-text")
+    implementation("commons-io:commons-io")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8")
+    implementation("org.apache.logging.log4j:log4j-api")
+    implementation("org.apache.logging.log4j:log4j-core")
     implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.24.3") // route SLF4J (from MCP SDK) to Log4j2
 
     testImplementation(kotlin("test"))
@@ -32,15 +43,17 @@ dependencies {
 
     // Runtime dependencies required by runemate-game-api for integration tests
     // (these are normally provided by the RuneMate client at runtime)
-    testRuntimeOnly(platform("com.runemate:runemate-client-bom:4.17.7.0"))
+    testRuntimeOnly(platform)
     testRuntimeOnly("com.runemate:runemate-client")
-    testRuntimeOnly("com.google.guava:guava")
-    testRuntimeOnly("org.apache.commons:commons-lang3")
     testRuntimeOnly("org.openjfx:javafx-base:22")
 }
 
 application {
     mainClass.set("com.runemate.mcp.MainKt")
+}
+
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
 }
 
 kotlin {

@@ -1,5 +1,6 @@
 package com.runemate.mcp.cache
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
@@ -14,6 +15,15 @@ private val SUPPORTED_TYPES = CacheManager.loaders.keys.sorted()
 internal val objectMapper: ObjectMapper = ObjectMapper()
     .registerKotlinModule()
     .disable(SerializationFeature.FAIL_ON_EMPTY_BEANS)
+    .setVisibility(
+        ObjectMapper()
+            .serializationConfig
+            .defaultVisibilityChecker
+            .withFieldVisibility(JsonAutoDetect.Visibility.ANY)
+            .withGetterVisibility(JsonAutoDetect.Visibility.NONE)
+            .withIsGetterVisibility(JsonAutoDetect.Visibility.NONE)
+            .withSetterVisibility(JsonAutoDetect.Visibility.NONE)
+    )
 
 fun Server.registerCacheLookupTool() {
     addTool(
