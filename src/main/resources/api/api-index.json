@@ -1,5 +1,5 @@
 [ {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "BaseType",
   "kind" : "enum",
   "description" : null,
@@ -32,7 +32,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "CacheIndex",
   "kind" : "enum",
   "description" : null,
@@ -155,7 +155,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "CombatGaugeDefinition",
   "kind" : "interface",
   "description" : null,
@@ -163,7 +163,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "DBRow",
   "kind" : "class",
   "description" : null,
@@ -171,7 +171,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "DBRows",
   "kind" : "class",
   "description" : null,
@@ -199,7 +199,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "DBTable",
   "kind" : "class",
   "description" : null,
@@ -212,7 +212,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "DBTables",
   "kind" : "class",
   "description" : null,
@@ -240,7 +240,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "EnumDefinition",
   "kind" : "interface",
   "description" : null,
@@ -248,7 +248,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "EnumDefinitions",
   "kind" : "class",
   "description" : null,
@@ -271,7 +271,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "FrameDefinition",
   "kind" : "class",
   "description" : null,
@@ -314,7 +314,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "FrameMapDefinition",
   "kind" : "class",
   "description" : null,
@@ -327,7 +327,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "IdentityKit",
   "kind" : "interface",
   "description" : null,
@@ -335,7 +335,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "IdentityKits",
   "kind" : "class",
   "description" : null,
@@ -368,7 +368,7 @@
     "description" : "Loads all identity kits that are accepted by the filter"
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "InventoryDefinition",
   "kind" : "interface",
   "description" : null,
@@ -376,7 +376,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "InventoryDefinitions",
   "kind" : "class",
   "description" : null,
@@ -394,7 +394,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "ModelDefinitions",
   "kind" : "class",
   "description" : null,
@@ -412,7 +412,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "OverlayDefinition",
   "kind" : "interface",
   "description" : null,
@@ -420,7 +420,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "OverlayDefinitions",
   "kind" : "class",
   "description" : null,
@@ -443,7 +443,7 @@
     "description" : "Loads all definitions that are accepted by the filter"
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "SpotAnimationDefinition",
   "kind" : "class",
   "description" : null,
@@ -476,7 +476,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "SpotAnimationDefinitions",
   "kind" : "class",
   "description" : null,
@@ -509,7 +509,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "Struct",
   "kind" : "class",
   "description" : null,
@@ -522,7 +522,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "Structs",
   "kind" : "class",
   "description" : null,
@@ -550,7 +550,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "UnderlayDefinition",
   "kind" : "interface",
   "description" : null,
@@ -558,7 +558,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.configs",
+  "package" : " com.runemate.mcp.cache.configs",
   "name" : "UnderlayDefinitions",
   "kind" : "class",
   "description" : null,
@@ -581,7 +581,7 @@
     "description" : "Loads all definitions that are accepted by the filter."
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "ConfigType",
   "kind" : "enum",
   "description" : null,
@@ -704,7 +704,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "CS2VarType",
   "kind" : "enum",
   "description" : null,
@@ -887,7 +887,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.db",
+  "package" : " com.runemate.mcp.cache.db",
   "name" : "DBTableIndex",
   "kind" : "class",
   "description" : null,
@@ -905,7 +905,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.db",
+  "package" : " com.runemate.mcp.cache.db",
   "name" : "DBTableIndexes",
   "kind" : "class",
   "description" : null,
@@ -918,7 +918,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "DJB2Hasher",
   "kind" : "class",
   "description" : null,
@@ -931,7 +931,7 @@
     "description" : "A hash that can be used to identify the position of the file in the downloadAndCache"
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheCombatGaugeDefinition",
   "kind" : "class",
   "description" : null,
@@ -944,7 +944,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheEnumDefinition",
   "kind" : "class",
   "description" : null,
@@ -1017,7 +1017,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheIdentityKit",
   "kind" : "class",
   "description" : null,
@@ -1040,7 +1040,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheInventoryDefinition",
   "kind" : "class",
   "description" : null,
@@ -1053,7 +1053,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheItemDefinition",
   "kind" : "class",
   "description" : null,
@@ -1081,7 +1081,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheMaterial",
   "kind" : "class",
   "description" : null,
@@ -1094,7 +1094,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheModel",
   "kind" : "class",
   "description" : null,
@@ -1222,7 +1222,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheNpcDefinition",
   "kind" : "class",
   "description" : null,
@@ -1245,7 +1245,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheObjectDefinition",
   "kind" : "class",
   "description" : null,
@@ -1278,7 +1278,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheOverlayDefinition",
   "kind" : "class",
   "description" : null,
@@ -1321,7 +1321,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheParameterDefinition",
   "kind" : "class",
   "description" : null,
@@ -1339,7 +1339,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheQuestDefinition",
   "kind" : "class",
   "description" : null,
@@ -1352,7 +1352,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheRegion",
   "kind" : "class",
   "description" : null,
@@ -1450,7 +1450,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheRegionExceptionLogger",
   "kind" : "class",
   "description" : null,
@@ -1503,7 +1503,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheSpotAnimationDefinition",
   "kind" : "class",
   "description" : null,
@@ -1526,7 +1526,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheUnderlayDefinition",
   "kind" : "class",
   "description" : null,
@@ -1604,7 +1604,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheVarbit",
   "kind" : "class",
   "description" : null,
@@ -1642,7 +1642,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CacheWorldEntityDefinition",
   "kind" : "class",
   "description" : null,
@@ -1660,7 +1660,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CollisionGrid",
   "kind" : "class",
   "description" : null,
@@ -1683,7 +1683,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "CompositeCacheModel",
   "kind" : "class",
   "description" : null,
@@ -1781,7 +1781,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "LandscapeFileCacheExtract",
   "kind" : "class",
   "description" : null,
@@ -1804,7 +1804,7 @@
     "description" : "These values are responsible for 13% of memory consumption when building the collision graphs"
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "LandscapeObject",
   "kind" : "class",
   "description" : null,
@@ -1962,7 +1962,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "LandscapeObjectPlacementInfo",
   "kind" : "class",
   "description" : null,
@@ -1985,7 +1985,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "MapFileCacheExtract",
   "kind" : "class",
   "description" : null,
@@ -2028,7 +2028,7 @@
     "description" : "These values are responsible for 13% of memory consumption when building the collision graphs"
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.elements",
+  "package" : " com.runemate.mcp.cache.elements",
   "name" : "OSRSCacheMaterial",
   "kind" : "class",
   "description" : null,
@@ -2061,7 +2061,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "JByteBuffer",
   "kind" : "class",
   "description" : null,
@@ -2189,7 +2189,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "CombatGaugeDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2202,7 +2202,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "DBRowLoader",
   "kind" : "class",
   "description" : null,
@@ -2215,7 +2215,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "DBTableIndexLoader",
   "kind" : "class",
   "description" : null,
@@ -2228,7 +2228,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "DBTableLoader",
   "kind" : "class",
   "description" : null,
@@ -2241,7 +2241,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "EnumDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2254,7 +2254,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "IdentityKitLoader",
   "kind" : "class",
   "description" : null,
@@ -2267,7 +2267,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "InventoryDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2280,7 +2280,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "ItemDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2293,7 +2293,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "MaterialLoader",
   "kind" : "class",
   "description" : null,
@@ -2306,7 +2306,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "ModelLoader",
   "kind" : "class",
   "description" : null,
@@ -2319,7 +2319,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "NpcDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2332,7 +2332,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "ObjectDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2345,7 +2345,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "OverlayDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2363,7 +2363,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "ParameterDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2376,7 +2376,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "RegionFileCacheLoader",
   "kind" : "class",
   "description" : null,
@@ -2389,7 +2389,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "SpotAnimationDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2402,7 +2402,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "StructLoader",
   "kind" : "class",
   "description" : null,
@@ -2415,7 +2415,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "UnderlayDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2428,7 +2428,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "VarbitLoader",
   "kind" : "class",
   "description" : null,
@@ -2441,7 +2441,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.loaders",
+  "package" : " com.runemate.mcp.cache.loaders",
   "name" : "WorldEntityDefinitionLoader",
   "kind" : "class",
   "description" : null,
@@ -2454,7 +2454,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache",
+  "package" : " com.runemate.mcp.cache",
   "name" : "MapTileColors",
   "kind" : "class",
   "description" : null,
@@ -2467,7 +2467,7 @@
     "description" : null
   } ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.materials",
+  "package" : " com.runemate.mcp.cache.materials",
   "name" : "Material",
   "kind" : "interface",
   "description" : null,
@@ -2475,7 +2475,7 @@
   "interfaces" : [ ],
   "members" : [ ]
 }, {
-  "package" : "com.runemate.game.api.hybrid.cache.materials",
+  "package" : " com.runemate.mcp.cache.materials",
   "name" : "Materials",
   "kind" : "class",
   "description" : null,

@@ -1,7 +1,7 @@
 package com.runemate.mcp.cache
 
-import com.runemate.game.api.osrs.cache.definition.loader.*
-import com.runemate.game.api.osrs.cache.fs.JagexCache
+import com.runemate.mcp.cache.definition.loader.*
+import com.runemate.mcp.cache.fs.JagexCache
 import org.apache.logging.log4j.LogManager
 import java.io.File
 

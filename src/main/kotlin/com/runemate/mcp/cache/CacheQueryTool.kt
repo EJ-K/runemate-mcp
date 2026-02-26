@@ -1,5 +1,6 @@
 package com.runemate.mcp.cache
 
+import com.runemate.mcp.cache.definition.loader.ConfigLoader
 import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature
@@ -74,7 +75,9 @@ fun Server.registerCacheLookupTool() {
             }
             filter != null -> {
                 val filterMap = filter.entries.associate { (k, v) -> k to v.jsonPrimitive.content }
-                val results = loader.loadAll { config ->
+                @Suppress("UNCHECKED_CAST")
+                val typedLoader = loader as ConfigLoader<Any>
+                val results = typedLoader.loadAll { config ->
                     filterMap.all { (fieldName, expected) ->
                         matchesField(config, fieldName, expected)
                     }

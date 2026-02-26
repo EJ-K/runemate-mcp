@@ -83,7 +83,8 @@ class CacheIntegrationTest {
 
     @Test
     fun `filter NPCs by name - King Black Dragon`() {
-        val loader = CacheManager.loaders["npc"]!!
+        @Suppress("UNCHECKED_CAST")
+        val loader = CacheManager.loaders["npc"]!! as com.runemate.mcp.cache.definition.loader.ConfigLoader<Any>
         val results = loader.loadAll { config ->
             matchesField(config, "name", "King Black Dragon")
         }
@@ -119,7 +120,8 @@ class CacheIntegrationTest {
 
     @Test
     fun `filter with matchesField on actions array`() {
-        val loader = CacheManager.loaders["npc"]!!
+        @Suppress("UNCHECKED_CAST")
+        val loader = CacheManager.loaders["npc"]!! as com.runemate.mcp.cache.definition.loader.ConfigLoader<Any>
         val results = loader.loadAll { config ->
             matchesField(config, "actions", "Pickpocket")
         }.take(5)
